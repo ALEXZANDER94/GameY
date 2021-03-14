@@ -5,18 +5,18 @@ As a solo project, I am not privileged with Experts in Animation, Graphics, or T
 
 The game does include an extensive grid-based room generator that is designed to ensure no game is repeated and will grow linearly as the play progresses into more floors. Many aspects of the game are generated randomly to keep the user playing to experience all of the different executions of the game.
 
-Level Generator
+Level Generator<br />
 No game is the same. The level structure is different every time, but the game is equipped with an intricate mapping system to ensure the player does not get lost.
   Random rooms
   Derived from Djikstra's Shortest Path Algorith
   Uses custom Blueprint Structure
 
-Power Up Generation
+Power Up Generation<br />
 Power Ups are generated at random for the level. So no two games can likely be generated and the phenomena of "Luck of the Draw" is experienced
   Randomly generated per level
   Custom Enumerated value 
   
- Enemy Generation
+Enemy Generation<br />
 The number of enemies and types of enemies are different for each room that is entered. This is a promise to keep the user engaged and alert that danger could very well be around every corner.
   Chasers - chase you around the room
   Spitters - attack you with a projectile; run away if you get too close
